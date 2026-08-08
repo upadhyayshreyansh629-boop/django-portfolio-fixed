@@ -1,0 +1,19 @@
+PORTFOLIO FIX - 2026-08-08
+
+Main fixes:
+1. requirements.txt converted from UTF-16 to normal UTF-8.
+2. settings.py defines STATICFILES_STORAGE so django-cloudinary-storage collectstatic works.
+3. Django 6 STORAGES is configured for Cloudinary media + WhiteNoise static files.
+4. build.sh runs migrate, collectstatic, then sync_cloudinary_media.
+5. Existing media/ is included so existing Project/Certificate images can be synced to Cloudinary during Render build.
+6. Added myapp management command: sync_cloudinary_media.
+
+IMPORTANT:
+- Render environment variables must contain:
+  CLOUDINARY_CLOUD_NAME
+  CLOUDINARY_API_KEY
+  CLOUDINARY_API_SECRET
+  DATABASE_URL
+  SECRET_KEY
+  ALLOWED_HOSTS
+- Existing media files are included in this project so they can be uploaded to Cloudinary automatically.
