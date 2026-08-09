@@ -2,6 +2,11 @@
 set -o errexit
 
 pip install -r requirements.txt
+
 python manage.py migrate
+
+python manage.py loaddata myapp_data.json
+
 python manage.py collectstatic --noinput
+
 python manage.py sync_cloudinary_media
