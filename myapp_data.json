@@ -1,0 +1,285 @@
+[
+{
+  "model": "myapp.contact",
+  "pk": 1,
+  "fields": {
+    "name": "Shreyansh Upadhyay",
+    "email": "upadhyayshreyansh629@gmail.com",
+    "subject": "urgent work",
+    "message": "fuckk you",
+    "created_at": "2026-08-02T13:43:34.726Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 2,
+  "fields": {
+    "name": "Shreyansh Upadhyay",
+    "email": "upadhyayshreyansh629@gmail.com",
+    "subject": "urgent work",
+    "message": "fuckk you",
+    "created_at": "2026-08-02T14:02:37.367Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 3,
+  "fields": {
+    "name": "Alok",
+    "email": "mrshreyansh629@gmail.com",
+    "subject": "no subbject",
+    "message": "ojioehio",
+    "created_at": "2026-08-03T02:03:36.655Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 4,
+  "fields": {
+    "name": "Alok",
+    "email": "mrshreyansh629@gmail.com",
+    "subject": "no subbject",
+    "message": "ojioehio",
+    "created_at": "2026-08-03T02:04:54.564Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 5,
+  "fields": {
+    "name": "kumar sanu",
+    "email": "kumarsanu@gmail.com",
+    "subject": "djkeuk",
+    "message": "jeujcfebhu",
+    "created_at": "2026-08-03T02:05:22.873Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 6,
+  "fields": {
+    "name": "kusal ",
+    "email": "mrshreyansh629@gmail.com",
+    "subject": "urgent work",
+    "message": "i  want to hire you ",
+    "created_at": "2026-08-03T02:27:17.056Z"
+  }
+},
+{
+  "model": "myapp.contact",
+  "pk": 7,
+  "fields": {
+    "name": "kusal ",
+    "email": "mrshreyansh629@gmail.com",
+    "subject": "urgent work",
+    "message": "i  want to hire you ",
+    "created_at": "2026-08-03T02:27:19.348Z"
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 1,
+  "fields": {
+    "title": "File Tracking System",
+    "description": "File Tracking System is a online tracking system which is reduces our paper work on companies...",
+    "image": "projects/Screenshot_2026-08-06_202558_9fL2DuO.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "Python Django Bootstap",
+    "created_at": "2026-08-02T14:04:46.252Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 2,
+  "fields": {
+    "title": "Blinkit",
+    "description": "Making a demo webpage of BLINKIT  using HTML , CSS , and BOOTSTRAP ..",
+    "image": "projects/Screenshot_2026-08-06_204717_einL0Sb.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "HTML , CSS , BOOTSTRAP",
+    "created_at": "2026-08-06T15:17:29.908Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 3,
+  "fields": {
+    "title": "YOUTUBE",
+    "description": "Making a demo home page of Youtube using HTML , CSS , BOOTSTRAP and Java Script ..",
+    "image": "projects/Screenshot_2026-08-06_205023_4Bx9BXw.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "HTML , CSS , BOOTSTRAP",
+    "created_at": "2026-08-06T15:20:41.387Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 4,
+  "fields": {
+    "title": "Resturant Website",
+    "description": "Making a demo webpage for a Resturant ..",
+    "image": "projects/Screenshot_2026-08-06_205248_xxk2hsb.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "HTML , CSS , Java Script , BOOTSTRAP",
+    "created_at": "2026-08-06T15:25:09.012Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 5,
+  "fields": {
+    "title": "BadriNarayan Mukteswar Collage",
+    "description": "Making a demo webpage of Badrinarayan Mukteswar Collage .",
+    "image": "projects/Screenshot_2026-08-06_205622_2FWkm4B.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "HTML , CSS , Java Script , BOOTSTRAP",
+    "created_at": "2026-08-06T15:27:29.226Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.project",
+  "pk": 6,
+  "fields": {
+    "title": "IIMM AYODHYA",
+    "description": "Making a demo webpage of  IIMM AYODHYA .",
+    "image": "projects/Screenshot_2026-08-06_205850_wuoa5sl.png",
+    "github_link": "",
+    "live_demo": "",
+    "technologies": "HTML , CSS , Java Script , BOOTSTRAP",
+    "created_at": "2026-08-06T15:29:20.758Z",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 4,
+  "fields": {
+    "name": "HTML",
+    "percentage": 95,
+    "icon": "bi bi-filetype-html",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 5,
+  "fields": {
+    "name": "CSS",
+    "percentage": 95,
+    "icon": "bi bi-filetype-css",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 6,
+  "fields": {
+    "name": "Java Script",
+    "percentage": 80,
+    "icon": "bi bi-filetype-js",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 7,
+  "fields": {
+    "name": "Python",
+    "percentage": 20,
+    "icon": "bi bi-filetype-py",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 8,
+  "fields": {
+    "name": "Github",
+    "percentage": 50,
+    "icon": "bi bi-github",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 9,
+  "fields": {
+    "name": "Bootstrap",
+    "percentage": 90,
+    "icon": "bi bi-bootstrap",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 10,
+  "fields": {
+    "name": "Code",
+    "percentage": 70,
+    "icon": "bi bi-code-slash",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.skill",
+  "pk": 11,
+  "fields": {
+    "name": "Django",
+    "percentage": 80,
+    "icon": "bi bi-code-square",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.certificate",
+  "pk": 1,
+  "fields": {
+    "title": "Softpro India",
+    "issued_by": "Er.Rohit Singh",
+    "issue_date": "2026-07-01",
+    "image": "certificates/Softpro_Certificate_4PjE6wM.jpg",
+    "certificate_link": "",
+    "is_active": true
+  }
+},
+{
+  "model": "myapp.education",
+  "pk": 1,
+  "fields": {
+    "degree": "Diploma in Information Technology",
+    "institute": "Government Polytechnic Aurai",
+    "branch": "I.T.",
+    "start_year": 2025,
+    "end_year": 2028,
+    "percentage": "Pursuing",
+    "description": "Currently pursuing Diploma in Information Technology with focus on Python, Django and Web Development.",
+    "is_active": true,
+    "created_at": "2026-08-02T15:38:13.926Z"
+  }
+},
+{
+  "model": "myapp.education",
+  "pk": 2,
+  "fields": {
+    "degree": "High School",
+    "institute": "AJHURAI INTERMEDIATE COLLAGE  , JAUNPUR",
+    "branch": "UP BOARD",
+    "start_year": 2024,
+    "end_year": 2025,
+    "percentage": "78",
+    "description": "",
+    "is_active": true,
+    "created_at": "2026-08-06T14:58:46.129Z"
+  }
+}
+]
